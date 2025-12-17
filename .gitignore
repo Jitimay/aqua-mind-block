@@ -1,0 +1,27 @@
+# Arduino IDE files
+*.hex
+*.elf
+*.map
+
+# Build files
+build/
+.pio/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Credentials (keep private)
+credentials.h
+secrets.h
+
+# Test files
+*_test.py
+validate_code.py
+hardware_sim_test.py
+
+# Submission packages
+*.tar.gz
+submission_package/
+clean_submission/
+tuya_submission_package/
